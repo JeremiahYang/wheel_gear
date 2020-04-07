@@ -1,0 +1,61 @@
+<view class="zhengti">
+  <view class="top">
+    <swiper autoplay indicator-dots="true" indicator-active-color="#FFA500" circular="true" interval="4000">
+    <swiper-item><image class="lb" mode="widthFix" src="../../icon/meishi.jpg"></image></swiper-item>
+    <swiper-item><image class="lb" mode="widthFix" src="../../icon/meishi1.jpg"></image></swiper-item>
+    <swiper-item><image class="lb" mode="widthFix" src="../../icon/meishi.jpg"></image></swiper-item>
+    <swiper-item><image class="lb" mode="widthFix" src="../../icon/meishi1.jpg"></image></swiper-item>
+    <swiper-item><image class="lb" mode="widthFix" src="../../icon/meishi1.jpg"></image></swiper-item>
+    </swiper>
+  </view>
+  
+  <view class="middle">
+    <view class="left">
+      <image class="tb" src="../../icon/tubiao.jpg"></image>
+      <view class="wz">
+      <text>餐厅</text>
+      </view>
+    </view>
+    <view class="right" style="flex-direction:row;">
+    <view class="shuxian"></view>
+    <view class="shuxian1"><image class="tb" src="../../icon/tubiao.jpg"></image></view>
+    </view>
+  </view>
+
+  <view class="bottom">
+  
+    <scroll-view class="lefthua" scroll-y="true">
+        <view id="mmm2" class="flex-item flex-item-V">
+        <image class="aa" src="../../icon/select.png"></image>  搜索</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="1" id="{{bg1}}">经典麦辣</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="2" id="{{bg2}}" class="3">超值三件套</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="3" id="{{bg3}}" class="4">随心配1+1</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="4" id="{{bg4}}" class="5">金拱门通</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="5" id="{{bg5}}" class="6">开心乐园餐</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="6" id="{{bg6}}" class="7">500大卡套餐</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="7" id="{{bg7}}" class="8">小食甜品</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="8" id="{{bg8}}" class="9">主食</view>
+        <view class="hx"></view>
+        <view bindtap="but" data-index="9" id="{{bg9}}" class="10">饮品</view>
+        <view class="hx"></view>
+    </scroll-view>
+    <scroll-view class="righthua" scroll-y="true">
+      <view id="nnn">dsd</view>
+      <view id="nnn"></view>
+      <view id="nnn"></view>
+      <view id="nnn"></view>
+      <view id="nnn"></view>
+      <view id="nnn"></view>
+    </scroll-view>
+  </view>
+
+
+</view>
